@@ -53,8 +53,4 @@ class ArticleCreateView(LoginRequiredMixin, CreateView):
 		form.instance.author = self.request.user
 		return super().form_valid(form)
 
-	def dispatch(self, request, *args, **kwargs): 
-		obj = self.get_object()
-		if obj.author != self.request.user:
-			raise PermissionDenied
-		return super().dispatch(request, *args, **kwargs)
+	
