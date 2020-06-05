@@ -12,7 +12,7 @@ Moreover, Admin has extended rights, he can delete your article or comment or ev
 
 ## Prerequisites:
 - Python (Used: [Python 3.7.6](https://www.python.org/downloads/release/python-376/))
-- Django (Used: [Django 3.0.5](https://docs.djangoproject.com/en/3.0/releases/3.0.5/))
+- Django (Used: [Django 3.0.5](https://docs.djangoproject.com/en/3.0/releases/3.0.5/)) (Make Sure you use greater or equal to 3.0.7)
 - django-crispy-forms (Used: [django-crispy-forms 1.9](https://github.com/django-crispy-forms/django-crispy-forms/releases/tag/1.9.0))
 - Email platform (Used: [Mailtrap.io](https://mailtrap.io/))
 
